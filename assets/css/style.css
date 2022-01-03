@@ -9,6 +9,9 @@
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* apply styles to all <h1> within <header> */
@@ -17,7 +20,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 /* apply styles to all <a> within <header> */
@@ -28,7 +30,6 @@ header a {
 
 /* apply styles to all <nav> within <header> */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
